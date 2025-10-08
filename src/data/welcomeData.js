@@ -14,7 +14,7 @@ export const actionButtonsRow2 = [
 
 // Datos del card de wellness
 export const wellnessData = {
-  icon: '🌙',
-  title: 'Comete esta banana PAGANO',
-  description: 'Cometela entera papu'
+  icon: '🧘‍♂️',
+  title: 'Cuida tu energia',
+  description: 'En la gerencia de RRHH sabemos que el bienestar laboral es clave. Tomate un respiro, delegá cuando lo necesites y volvé con foco'
 };

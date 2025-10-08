@@ -14,9 +14,9 @@ export default function Navbar() {
             </button>
             <div className="flex items-center space-x-2">
               <div className="bg-blue-600 w-8 h-8 rounded flex items-center justify-center">
-                <span className="text-white font-bold text-sm">SAP</span>
+                <span className="text-white font-bold text-sm">RH</span>
               </div>
-              <span className="text-lg font-semibold text-gray-800">SuccessFactors</span>
+              <span className="text-lg font-semibold text-gray-800">Nuevo Portal RH</span>
             </div>
           </div>
 
@@ -26,7 +26,7 @@ export default function Navbar() {
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-blue-500" />
               <input
                 type="text"
-                placeholder="Search for people or Action"
+                placeholder="Buscar Empleado por Nombre o Legajo" //Modificar Nombre de la barra de busqueda
                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
@@ -62,17 +62,17 @@ export default function Navbar() {
         <div className="bg-blue-50 border-t border-blue-100">
           <div className="max-w-7xl mx-auto px-4 py-3 flex justify-center space-x-4">
             {[
-              { icon: '🔍', label: 'Search' },
-              { icon: '✏️', label: 'Edit' },
-              { icon: '📄', label: 'Documents' },
-              { icon: '💬', label: 'Messages' },
-              { icon: '👥', label: 'People' },
-              { icon: '📅', label: 'Calendar' },
-              { icon: '💼', label: 'Work' },
-              { icon: '✓', label: 'Tasks' },
-              { icon: '⚙️', label: 'Settings' },
-              { icon: '🎯', label: 'Goals' },
-              { icon: '📊', label: 'Reports' }
+              { icon: '🔍', label: 'Buscar' },
+              { icon: '✏️', label: 'Editar' },
+              { icon: '📄', label: 'Documentos' },
+              { icon: '💬', label: 'Mensajes' },
+              { icon: '👥', label: 'Personas' },
+              { icon: '📅', label: 'Calendario' },
+              { icon: '💼', label: 'Trabajo' },
+              { icon: '✓', label: 'Tareas' },
+              { icon: '⚙️', label: 'Configuracion' },
+              { icon: '🎯', label: 'Metas' },
+              { icon: '📊', label: 'Reportes' }
             ].map((item, idx) => (
               <button 
                 key={idx} 
