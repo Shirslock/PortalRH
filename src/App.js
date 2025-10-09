@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import WelcomeSection from './components/WelcomeSection';
 import NeedsAttention from './components/NeedsAttention';
 import OrganizationalUpdates from './components/OrganizationalUpdates';
+import ExploreMore from './components/ExploreMore';
 
 function App() {
   return (
@@ -21,14 +22,15 @@ function App() {
         {/* Sección Organizational Updates */}
         <OrganizationalUpdates />
         
-        {/* Placeholder para siguientes secciones */}
-        <div className="bg-white rounded-lg shadow-md p-8 text-center mt-8">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-2">
-            Organizational Updates ✓
+        {/* Sección Explore More */}
+        <ExploreMore />
+        
+        {/* Fin de la aplicación */}
+        <div className="bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg shadow-md p-8 text-center mt-8">
+          <h2 className="text-3xl font-bold mb-2">
+            Aca podemos seguir agregando mas secciones
           </h2>
-          <p className="text-gray-600">
-            Siguiente paso: Explore More (Charts y visualizaciones)
-          </p>
+          
         </div>
       </div>
     </div>
