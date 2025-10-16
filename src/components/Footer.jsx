@@ -41,7 +41,7 @@ export default function Footer() {
         {/* Línea divisoria */}
         <div className="border-t border-slate-600 mt-6 pt-4">
           <p className="text-center text-slate-400 text-xs">
-            © {new Date().getFullYear()} SAP SuccessFactors - Prototipo de Propuesta
+            © {new Date().getFullYear()}  Prototipo de Propuesta - Portal RRHH - Gerencia de Sistemas y Procesos
           </p>
         </div>
       </div>
