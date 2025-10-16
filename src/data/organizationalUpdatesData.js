@@ -49,6 +49,6 @@ export const organizationalUpdatesData = [
 
 // Tabs de navegación
 export const organizationalTabsData = [
-  { id: 'all', label: 'All', count: 5 },
-  { id: 'updates', label: 'Updates', count: 2 }
+  { id: 'all', label: 'Todos', count: 5 },
+  { id: 'updates', label: 'Novedades', count: 2 }
 ];
