@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PortalRH/static/css/main.8243d278.css",
+    "main.js": "/PortalRH/static/js/main.8354d62d.js",
+    "index.html": "/PortalRH/index.html",
+    "main.8243d278.css.map": "/PortalRH/static/css/main.8243d278.css.map",
+    "main.8354d62d.js.map": "/PortalRH/static/js/main.8354d62d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8243d278.css",
+    "static/js/main.8354d62d.js"
+  ]
+}
