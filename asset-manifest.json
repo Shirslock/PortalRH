@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PortalRH/static/css/main.8243d278.css",
-    "main.js": "/PortalRH/static/js/main.8354d62d.js",
+    "main.css": "/PortalRH/static/css/main.7ee45366.css",
+    "main.js": "/PortalRH/static/js/main.3018a6d1.js",
     "index.html": "/PortalRH/index.html",
-    "main.8243d278.css.map": "/PortalRH/static/css/main.8243d278.css.map",
-    "main.8354d62d.js.map": "/PortalRH/static/js/main.8354d62d.js.map"
+    "main.7ee45366.css.map": "/PortalRH/static/css/main.7ee45366.css.map",
+    "main.3018a6d1.js.map": "/PortalRH/static/js/main.3018a6d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.8243d278.css",
-    "static/js/main.8354d62d.js"
+    "static/css/main.7ee45366.css",
+    "static/js/main.3018a6d1.js"
   ]
 }
