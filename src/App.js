@@ -4,6 +4,7 @@ import WelcomeSection from './components/WelcomeSection';
 import NeedsAttention from './components/NeedsAttention';
 import OrganizationalUpdates from './components/OrganizationalUpdates';
 import ExploreMore from './components/ExploreMore';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,15 +25,10 @@ function App() {
         
         {/* Sección Explore More */}
         <ExploreMore />
-        
-        {/* Fin de la aplicación */}
-        <div className="bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg shadow-md p-8 text-center mt-8">
-          <h2 className="text-3xl font-bold mb-2">
-            Aca podemos seguir agregando mas secciones
-          </h2>
-          
-        </div>
       </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
