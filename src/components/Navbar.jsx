@@ -16,7 +16,7 @@ export default function Navbar() {
               <div className="bg-blue-600 w-8 h-8 rounded flex items-center justify-center">
                 <span className="text-white font-bold text-sm">RH</span>
               </div>
-              <span className="text-lg font-semibold text-gray-800">Nuevo Portal RH</span>
+              <span className="text-lg font-semibold text-gray-800">Gestion RRHH</span>
             </div>
           </div>
 

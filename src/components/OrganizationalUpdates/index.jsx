@@ -22,7 +22,7 @@ export default function OrganizationalUpdates() {
       {/* Header con título y navegación */}
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-2xl font-semibold text-gray-900">
-          Organizational Updates
+          Accesos Organizativos
         </h2>
         
         {/* Tabs y navegación */}

@@ -7,7 +7,7 @@ export const vacacionesData = [
     icon: 'Inbox',
     color: 'blue',
     gradient: 'from-blue-500 to-indigo-600',
-    stats: { pending: 5, approved: 12 },
+    stats: { 'Pendientes de Aprobacion': 5, aprobadas: 12 },
     route: '/vacaciones/bandeja'
   },
   {
@@ -17,7 +17,7 @@ export const vacacionesData = [
     icon: 'Calendar',
     color: 'green',
     gradient: 'from-green-500 to-emerald-600',
-    stats: { available: 15, used: 5 },
+    stats: { solicitudes: 15 },
     route: '/vacaciones/solicitud'
   }
 ];
