@@ -4,12 +4,12 @@ export const actionButtonsRow1 = [
   'Ver Datos Personales',
   'Horarios de Trabajo',
   'Vacaciones',
-  'Crear Reunion'
+  
 ];
 
 export const actionButtonsRow2 = [
-  'Opcion 1',
-  'Opcion 2'
+  'Organigrama',
+  
 ];
 
 // Datos del card de wellness

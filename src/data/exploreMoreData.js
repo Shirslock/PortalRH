@@ -26,8 +26,8 @@ export const vacacionesData = [
 export const gestionData = [
   {
     id: 1,
-    title: 'Centro de Informes',
-    description: 'Accede a reportes y análisis de recursos humanos',
+    title: 'Reportes Consolidado',
+    description: 'Accede a los reportes y análisis de recursos humanos',
     icon: 'BarChart3',
     color: 'purple',
     gradient: 'from-purple-500 to-violet-600',
@@ -37,7 +37,7 @@ export const gestionData = [
   {
     id: 2,
     title: 'Gestión de Empleos',
-    description: 'Administra posiciones, ofertas y procesos de selección',
+    description: 'Administra oferta, busquedas y procesos de selección',
     icon: 'Briefcase',
     color: 'orange',
     gradient: 'from-orange-500 to-amber-600',
