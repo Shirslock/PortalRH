@@ -1,5 +1,6 @@
 import React from 'react';
-import { Search, HelpCircle, Bell, Settings, User, Menu } from 'lucide-react';
+import { HelpCircle, Bell, Settings, User, Menu } from 'lucide-react';
+import SearchBar from './SearchBar';
 
 export default function Navbar() {
   return (
@@ -14,23 +15,14 @@ export default function Navbar() {
             </button>
             <div className="flex items-center space-x-2">
               <div className="bg-blue-600 w-8 h-8 rounded flex items-center justify-center">
-                <span className="text-white font-bold text-sm">RH</span>
+                <span className="text-white font-bold text-sm">SAP</span>
               </div>
-              <span className="text-lg font-semibold text-gray-800">Gestion RRHH</span>
+              <span className="text-lg font-semibold text-gray-800">SuccessFactors</span>
             </div>
           </div>
 
           {/* Center - Search Bar */}
-          <div className="flex-1 max-w-xl mx-8">
-            <div className="relative">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-blue-500" />
-              <input
-                type="text"
-                placeholder="Buscar Empleado por Nombre o Legajo" //Modificar Nombre de la barra de busqueda
-                className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              />
-            </div>
-          </div>
+          <SearchBar />
 
           {/* Right Section - Icons */}
           <div className="flex items-center space-x-2">
@@ -62,17 +54,17 @@ export default function Navbar() {
         <div className="bg-blue-50 border-t border-blue-100">
           <div className="max-w-7xl mx-auto px-4 py-3 flex justify-center space-x-4">
             {[
-              { icon: '🔍', label: 'Buscar' },
-              { icon: '✏️', label: 'Editar' },
-              { icon: '📄', label: 'Documentos' },
-              { icon: '💬', label: 'Mensajes' },
-              { icon: '👥', label: 'Personas' },
-              { icon: '📅', label: 'Calendario' },
-              { icon: '💼', label: 'Trabajo' },
-              { icon: '✓', label: 'Tareas' },
-              { icon: '⚙️', label: 'Configuracion' },
-              { icon: '🎯', label: 'Metas' },
-              { icon: '📊', label: 'Reportes' }
+              { icon: '🔍', label: 'Search' },
+              { icon: '✏️', label: 'Edit' },
+              { icon: '📄', label: 'Documents' },
+              { icon: '💬', label: 'Messages' },
+              { icon: '👥', label: 'People' },
+              { icon: '📅', label: 'Calendar' },
+              { icon: '💼', label: 'Work' },
+              { icon: '✓', label: 'Tasks' },
+              { icon: '⚙️', label: 'Settings' },
+              { icon: '🎯', label: 'Goals' },
+              { icon: '📊', label: 'Reports' }
             ].map((item, idx) => (
               <button 
                 key={idx} 

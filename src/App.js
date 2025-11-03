@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/navigation/Navbar';
 import WelcomeSection from './components/WelcomeSection';
 import NeedsAttention from './components/NeedsAttention';
 import OrganizationalUpdates from './components/OrganizationalUpdates';
