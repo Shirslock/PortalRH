@@ -15,9 +15,9 @@ export default function Navbar() {
             </button>
             <div className="flex items-center space-x-2">
               <div className="bg-blue-600 w-8 h-8 rounded flex items-center justify-center">
-                <span className="text-white font-bold text-sm">SAP</span>
+                <span className="text-white font-bold text-sm">RH</span>
               </div>
-              <span className="text-lg font-semibold text-gray-800">SuccessFactors</span>
+              <span className="text-lg font-semibold text-gray-800">Gestion RRHH</span>
             </div>
           </div>
 

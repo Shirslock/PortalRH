@@ -5,8 +5,8 @@ export const employeesData = [
     legajo: '13096',
     nombre: 'Gil Cristian',
     puesto: 'Analista Funcional',
-    departamento: 'Recursos Humanos',
-    email: 'gil.cristian@company.com',
+    departamento: 'Sistemas y Procesos',
+    email: 'gil.cristian@trenesargentinos.gob.ar',
     avatar: 'GC'
   }
 ];
