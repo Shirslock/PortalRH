@@ -8,7 +8,7 @@ export const organizationalUpdatesData = [
     color: 'blue',
     gradient: 'from-blue-400 to-blue-600',
     route: '/organigrama',
-    externalLink: 'https://ssotest.trenesargentinos.gob.ar/admin/login'  // ← AGREGAR TU LINK
+    externalLink: 'https://gestionrh.trenesargentinos.gob.ar/organigrama/list'  // ← AGREGAR TU LINK
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export const organizationalUpdatesData = [
     color: 'green',
     gradient: 'from-green-400 to-green-600',
     route: '/cobertura-vacante',
-    externalLink: 'https://ssotest.trenesargentinos.gob.ar/admin/login'  // ← AGREGAR TU LINK
+    externalLink: 'https://sofse-sap-ap.trenesargentinos.gob.ar:44301/sap/bc/ui2/flp#ZHRSemObj-OpenZHCM_NEC_COB_VAC?sap-ui-tech-hint=GUI'  // ← AGREGAR TU LINK
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ export const organizationalUpdatesData = [
     color: 'pink',
     gradient: 'from-pink-400 to-pink-600',
     route: '/certificacion-servicios',
-    externalLink: 'https://ssotest.trenesargentinos.gob.ar/admin/login'  // ← AGREGAR TU LINK
+    externalLink: 'https://sofse-sap-ap.trenesargentinos.gob.ar:44301/sap/bc/ui2/flp#ZHRSemObj-OpenZHCM_CERTSERV_PROCES?sap-ui-tech-hint=GUI'  // ← AGREGAR TU LINK
   }
 ];
 
