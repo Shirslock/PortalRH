@@ -3,7 +3,8 @@ import {
   Inbox, 
   Calendar,
   ArrowRight,
-  TrendingUp
+  TrendingUp,
+  ExternalLink  // ← AGREGAR
 } from 'lucide-react';
 
 // Mapeo de iconos
@@ -12,8 +13,18 @@ const iconMap = {
   Calendar
 };
 
-export default function VacacionesCard({ data, onClick }) {
+export default function VacacionesCard({ data }) {
   const Icon = iconMap[data.icon];
+
+  // Función para manejar el click
+  const handleClick = () => {
+    if (data.externalLink) {
+      // Abrir en nueva pestaña
+      window.open(data.externalLink, '_blank', 'noopener,noreferrer');
+    } else {
+      console.log('Navegando a:', data.route);
+    }
+  };
 
   return (
     <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group">
@@ -55,11 +66,16 @@ export default function VacacionesCard({ data, onClick }) {
 
           {/* Botón de acción */}
           <button
-            onClick={() => onClick(data)}
+            onClick={handleClick}
             className={`w-full md:w-auto flex items-center justify-center space-x-2 px-6 py-3 bg-gradient-to-r ${data.gradient} text-white rounded-lg hover:opacity-90 transition-all duration-300 font-semibold shadow-md hover:shadow-lg`}
           >
             <span>Acceder Ahora</span>
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+            <div className="flex items-center space-x-1">
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+              {data.externalLink && (
+                <ExternalLink className="w-3 h-3 opacity-70" />
+              )}
+            </div>
           </button>
         </div>
       </div>

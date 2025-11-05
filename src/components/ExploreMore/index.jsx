@@ -5,16 +5,11 @@ import GestionCard from './GestionCard';
 import { vacacionesData, gestionData } from '../../data/exploreMoreData';
 
 export default function ExploreMore() {
-  const handleCardClick = (data) => {
-    console.log('Navegando a:', data.route);
-    alert(`Accediendo a: ${data.title}\nRuta: ${data.route}`);
-  };
-
   return (
     <div className="mb-8">
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
-        <h2 className="text-2xl font-semibold text-gray-900">Ver Mas</h2>
+        <h2 className="text-2xl font-semibold text-gray-900">Explore More</h2>
         <button className="p-2 hover:bg-gray-100 rounded-md transition-colors">
           <MoreHorizontal className="w-5 h-5 text-gray-600" />
         </button>
@@ -34,7 +29,6 @@ export default function ExploreMore() {
             <VacacionesCard 
               key={item.id} 
               data={item}
-              onClick={handleCardClick}
             />
           ))}
         </div>
@@ -54,7 +48,6 @@ export default function ExploreMore() {
             <GestionCard 
               key={item.id} 
               data={item}
-              onClick={handleCardClick}
             />
           ))}
         </div>
