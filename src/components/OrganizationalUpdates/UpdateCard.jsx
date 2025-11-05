@@ -5,7 +5,8 @@ import {
   RefreshCw, 
   Search, 
   Award,
-  ArrowRight 
+  ArrowRight,
+  ExternalLink  // ← AGREGAR este icono
 } from 'lucide-react';
 
 // Mapeo de nombres de iconos a componentes
@@ -17,8 +18,19 @@ const iconMap = {
   Award
 };
 
-export default function UpdateCard({ data, onClick }) {
+export default function UpdateCard({ data }) {
   const Icon = iconMap[data.icon];
+
+  // Función para manejar el click
+  const handleClick = () => {
+    if (data.externalLink) {
+      // Abrir en nueva pestaña
+      window.open(data.externalLink, '_blank', 'noopener,noreferrer');
+    } else {
+      // Alternativa: navegar internamente (con React Router en el futuro)
+      console.log('Navegando a:', data.route);
+    }
+  };
 
   return (
     <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group cursor-pointer">
@@ -45,11 +57,16 @@ export default function UpdateCard({ data, onClick }) {
 
         {/* Botón de acción */}
         <button 
-          onClick={() => onClick(data)}
+          onClick={handleClick}
           className="w-full flex items-center justify-center space-x-2 py-2.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-300 font-medium group-hover:shadow-md"
         >
           <span>Acceder</span>
-          <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+          <div className="flex items-center space-x-1">
+            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+            {data.externalLink && (
+              <ExternalLink className="w-3 h-3 opacity-70" />
+            )}
+          </div>
         </button>
       </div>
     </div>

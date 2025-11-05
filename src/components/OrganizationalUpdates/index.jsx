@@ -10,19 +10,12 @@ import {
 export default function OrganizationalUpdates() {
   const [activeTab, setActiveTab] = useState('all');
 
-  const handleCardClick = (data) => {
-    console.log('Navegando a:', data.route);
-    // Aquí en el futuro puedes implementar la navegación real
-    // Por ejemplo: navigate(data.route);
-    alert(`Accediendo a: ${data.title}\nRuta: ${data.route}`);
-  };
-
   return (
     <div className="mb-8">
       {/* Header con título y navegación */}
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-2xl font-semibold text-gray-900">
-          Accesos Organizativos
+          Organizational Updates
         </h2>
         
         {/* Tabs y navegación */}
@@ -53,7 +46,6 @@ export default function OrganizationalUpdates() {
           <UpdateCard 
             key={item.id} 
             data={item}
-            onClick={handleCardClick}
           />
         ))}
       </div>

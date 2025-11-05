@@ -7,7 +7,8 @@ export const organizationalUpdatesData = [
     icon: 'Network',
     color: 'blue',
     gradient: 'from-blue-400 to-blue-600',
-    route: '/organigrama'
+    route: '/organigrama',
+    externalLink: 'https://ssotest.trenesargentinos.gob.ar/admin/login'  // ← AGREGAR TU LINK
   },
   {
     id: 2,
@@ -16,7 +17,8 @@ export const organizationalUpdatesData = [
     icon: 'UserPlus',
     color: 'green',
     gradient: 'from-green-400 to-green-600',
-    route: '/cobertura-vacante'
+    route: '/cobertura-vacante',
+    externalLink: 'https://ssotest.trenesargentinos.gob.ar/admin/login'  // ← AGREGAR TU LINK
   },
   {
     id: 3,
@@ -25,7 +27,8 @@ export const organizationalUpdatesData = [
     icon: 'RefreshCw',
     color: 'purple',
     gradient: 'from-purple-400 to-purple-600',
-    route: '/cambio-organizativo'
+    route: '/cambio-organizativo',
+    externalLink: 'https://ssotest.trenesargentinos.gob.ar/admin/login'  // ← AGREGAR TU LINK
   },
   {
     id: 4,
@@ -34,7 +37,8 @@ export const organizationalUpdatesData = [
     icon: 'Search',
     color: 'orange',
     gradient: 'from-orange-400 to-orange-600',
-    route: '/busquedas-internas'
+    route: '/busquedas-internas',
+    externalLink: 'https://ssotest.trenesargentinos.gob.ar/admin/login'  // ← AGREGAR TU LINK
   },
   {
     id: 5,
@@ -43,12 +47,13 @@ export const organizationalUpdatesData = [
     icon: 'Award',
     color: 'pink',
     gradient: 'from-pink-400 to-pink-600',
-    route: '/certificacion-servicios'
+    route: '/certificacion-servicios',
+    externalLink: 'https://ssotest.trenesargentinos.gob.ar/admin/login'  // ← AGREGAR TU LINK
   }
 ];
 
 // Tabs de navegación
 export const organizationalTabsData = [
-  { id: 'all', label: 'Todos', count: 5 },
-  { id: 'updates', label: 'Novedades', count: 2 }
+  { id: 'all', label: 'All', count: 5 },
+  { id: 'updates', label: 'Updates', count: 2 }
 ];
