@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/PortalRH/static/css/main.ba425cf7.css",
-    "main.js": "/PortalRH/static/js/main.d1630302.js",
+    "main.js": "/PortalRH/static/js/main.2555cc07.js",
     "index.html": "/PortalRH/index.html",
     "main.ba425cf7.css.map": "/PortalRH/static/css/main.ba425cf7.css.map",
-    "main.d1630302.js.map": "/PortalRH/static/js/main.d1630302.js.map"
+    "main.2555cc07.js.map": "/PortalRH/static/js/main.2555cc07.js.map"
   },
   "entrypoints": [
     "static/css/main.ba425cf7.css",
-    "static/js/main.d1630302.js"
+    "static/js/main.2555cc07.js"
   ]
 }
