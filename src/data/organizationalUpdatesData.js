@@ -28,7 +28,7 @@ export const organizationalUpdatesData = [
     color: 'purple',
     gradient: 'from-purple-400 to-purple-600',
     route: '/cambio-organizativo',
-    externalLink: 'https://ssotest.trenesargentinos.gob.ar/admin/login'  // ← AGREGAR TU LINK
+    externalLink: 'https://testgsp2.trenesargentinos.gob.ar/cambio_organizativo/homeco/home.php'  // ← AGREGAR TU LINK
   },
   {
     id: 4,
